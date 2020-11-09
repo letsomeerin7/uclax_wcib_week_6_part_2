@@ -1,5 +1,5 @@
 console.log('Hello from js/scripts.js!');
-const fullImage = document.querySelector('.full-img');
+const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
 /* Looping through images */
@@ -8,7 +8,7 @@ for(let i = 1; i <= 5; i++) {
   newImage.setAttribute('src', 'images/pic'+i+'.jpg');
   thumbBar.appendChild(newImage);
   newImage.onclick = function(e) {
-    fullImage.src = e.target.src;
+    displayedImage.src = e.target.src;
   }
 }
 
