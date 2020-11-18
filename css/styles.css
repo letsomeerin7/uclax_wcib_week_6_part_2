@@ -54,6 +54,13 @@ body {
   letter-spacing: -.05rem;
   color: #6D0047; }
 
+.featurette {
+  width: 1200px;
+  align-items: center;
+  margin-left: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
 h2 span {
   color: #C00476; }
 
