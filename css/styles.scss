@@ -64,6 +64,8 @@ body {
 }
 
 .featurette {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 1200px;
   align-items: center;
