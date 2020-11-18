@@ -55,6 +55,7 @@ body {
   color: #6D0047; }
 
 .featurette {
+  flex-wrap: wrap;
   width: 1200px;
   align-items: center;
   margin-left: 5%;

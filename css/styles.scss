@@ -64,11 +64,12 @@ body {
 }
 
 .featurette {
-width: 1200px;
-align-items: center;
-margin-left: 5%;
-padding-top: 25px;
-padding-bottom: 25px;
+  flex-wrap: wrap;
+  width: 1200px;
+  align-items: center;
+  margin-left: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 h2 span {
