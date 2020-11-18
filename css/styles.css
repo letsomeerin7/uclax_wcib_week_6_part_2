@@ -59,7 +59,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 h2 span {
   color: #C00476; }
